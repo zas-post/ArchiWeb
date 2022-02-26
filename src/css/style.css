@@ -14,10 +14,6 @@ nav {
   align-items: center;
 }
 
-.row {
-  margin: 0;
-}
-
 header {
   font-size: 20px;
   line-height: 24px;
@@ -44,6 +40,7 @@ header .header_search {
 
 .solution {
   position: relative;
+  height: 564px;
 }
 
 .solution_img {
@@ -90,4 +87,17 @@ header .header_search {
   /* flex-direction: row; */
   min-height: 384px;
   background: rgba(37, 77, 77, 0.2);
+}
+
+.our_services_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.our_services_pl,
+.our_services_in,
+.our_services_ex {
+  width: 103px;
+  height: 103px;
+  justify-content: center;
 }

@@ -55,7 +55,7 @@ header .header_search {
 
 .whitebg {
   position: absolute;
-  margin-left: 80px;
+  margin: 0;
   top: 91px;
   height: 389px;
   width: 617px;
@@ -63,20 +63,18 @@ header .header_search {
 }
 
 .solution_text {
-  /* display: flex; */
   position: absolute;
   top: 125px;
-  left: 195px;
+  left: 123px;
   font-weight: 600;
   font-size: 50px;
   color: #2f2e2e;
 }
 
 .solution_subtext {
-  /* display: flex; */
   position: absolute;
   bottom: -433px;
-  left: 195px;
+  left: 123px;
   font-weight: 600;
   font-size: 30px;
   color: #2f2e2e;
@@ -84,9 +82,13 @@ header .header_search {
 
 .our_services_main {
   position: relative;
-  /* flex-direction: row; */
   min-height: 384px;
   background: rgba(37, 77, 77, 0.2);
+}
+
+h1 .our_services_text {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .our_services_box {
@@ -99,5 +101,4 @@ header .header_search {
 .our_services_ex {
   width: 103px;
   height: 103px;
-  justify-content: center;
 }

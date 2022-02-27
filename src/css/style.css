@@ -4,7 +4,7 @@
 }
 
 body {
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0;
 }
 
@@ -90,7 +90,7 @@ header .header_search {
 }
 
 .our_services .our_services_text_main {
-  color: red;
+  color: #2f2e2e;
   padding-top: 35px;
 }
 /* .our_services_text {
@@ -109,4 +109,27 @@ header .header_search {
 .our_services_ex {
   width: 103px;
   height: 103px;
+}
+
+.about_us {
+  min-width: 647px;
+  margin: 0;
+}
+
+.about_us_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_us_box_img {
+  padding: 76px 0 0 100px;
+}
+
+.about_us_img {
+  width: 735px;
+  height: 571px;
+}
+
+.about_us_box_text {
+  padding: 141px;
 }

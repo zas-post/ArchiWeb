@@ -5,6 +5,7 @@
 
 body {
   width: 1440px;
+  margin: 0;
 }
 
 nav {
@@ -80,20 +81,27 @@ header .header_search {
   color: #2f2e2e;
 }
 
-.our_services_main {
-  position: relative;
+.our_services {
+  /* position: relative; */
+  margin: 0;
   min-height: 384px;
   background: rgba(37, 77, 77, 0.2);
+  text-align: center;
 }
 
-h1 .our_services_text {
+.our_services .our_services_text_main {
+  color: red;
+  padding-top: 35px;
+}
+/* .our_services_text {
   text-align: center;
   margin: 0 auto;
-}
+} */
 
 .our_services_box {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 .our_services_pl,

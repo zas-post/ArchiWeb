@@ -150,3 +150,28 @@ header .header_search {
   font-weight: 600;
   font-size: 24px;
 }
+
+.our_projects {
+  height: 917px;
+  margin: 0;
+  padding-top: 95px;
+}
+
+.our_projects_link {
+  padding-left: 119px;
+  color: #2f2e2e;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 51px;
+}
+
+.our_projects_link_a,
+.our_projects_link_f,
+.our_projects_link_d,
+.our_projects_link_h {
+  color: #2f2e2e;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}

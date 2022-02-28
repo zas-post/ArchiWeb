@@ -123,6 +123,7 @@ header .header_search {
 
 .about_us_box_img {
   padding: 76px 0 0 100px;
+  position: relative;
 }
 
 .about_us_img {
@@ -131,5 +132,21 @@ header .header_search {
 }
 
 .about_us_box_text {
-  padding: 141px;
+  padding: 141px 0 0 78px;
+  position: relative;
+}
+
+.about_us_box_text_descr {
+  font-size: 68px;
+}
+
+.about_us_box_text_subdescr {
+  font-size: 25px;
+}
+
+.about_us_box_text_link {
+  text-decoration: none;
+  color: #2f2e2e;
+  font-weight: 600;
+  font-size: 24px;
 }
